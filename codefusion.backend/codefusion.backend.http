@@ -1,0 +1,6 @@
+@codefusion.backend_HostAddress = http://localhost:5198
+
+GET {{codefusion.backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
