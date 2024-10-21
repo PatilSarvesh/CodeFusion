@@ -48,7 +48,7 @@ namespace codefusion.backend.Factories
                     Id = 2,
                     Title = "Base64 Encode/Decode",
                     Description = "Encode or decode Base64 strings",
-                    Link = "base64-encode-decode"
+                    Link = "base-64-encoder"
                 },
                 new Tools
                 {

@@ -20,6 +20,7 @@ builder.Services.AddCors(options =>
 //Factories
 builder.Services.AddScoped<IUtilsFactory, UtilsFactory>();
 builder.Services.AddScoped<IJSONFactory, JSONFactory>();
+builder.Services.AddScoped<IEncodeDecodeFactory, EncodeDecodeFactory>();
 
 
 var app = builder.Build();
